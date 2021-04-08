@@ -45,7 +45,7 @@ function App() {
   };
   return (
     <div className="h-screen w-screen flex bg-gradient-to-tr from-gray-200 via-gray-400 to-gray-500">
-      <div className="container bg-white rounded-xl mx-auto my-auto w-1/4 h-5/6 flex flex-col shadow-xl ">
+      <div className="container bg-white rounded-xl mx-auto my-auto w-1/4 h-5/6 flex flex-col shadow-xl overflow-y-auto ">
         <h2 className="text-4xl font-semibold	text-center flex mx-auto mt-4 mb-4 text-blue-400 header-font">
           Bucket List
         </h2>

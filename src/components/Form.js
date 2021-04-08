@@ -22,16 +22,16 @@ function Form({ inputText, setInputText, setTodos, todos ,setStatus}) {
   }
   return (
     <div className="flex flex-col justify-center w-full mb-6 pb-6 border-b-2 border-gray-100 items-center bg-white  mx-auto ">
-      <form className="flex w-full  rounded-2xl border-gray-100 border-2 mx-2">
+      <form className="flex  rounded-2xl border-gray-100 border-2 ml-4 mr-4">
         <input
-          className="w-full box-border outline-none bg-transparent text-gray-600 placeholder-gray-300 text-2xl ml-2 p-4 flex"
+          className="w-full box-border outline-none bg-transparent text-gray-600 placeholder-gray-300 text-2xl mx-6 p-2"
           placeholder="New"
           onChange={inputTextHandler}
           value={inputText}
           type="text"
         />
-        <button onClick={clickHandler}>
-          <i className="fas fa-thumbtack text-blue-500 mr-4 text-lg outline-none"></i>
+        <button onClick={clickHandler} className="outline-none">
+          <i className="fas fa-thumbtack text-blue-500 mr-4 text-lg outline-none outline-no"></i>
         </button>
       </form>
       <div className="flex justify-evenly mt-6 w-full header-font text-gray-500">

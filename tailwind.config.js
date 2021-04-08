@@ -3,15 +3,15 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      outline: {
+        no: '0px',
+      },
       colors: {
         primary: "#96e7e1",
         secondary: "#d7bbee",
         third: "#fdf1d7",
         custom: "#edf8f4",
-      },
-      backgroundImage: (theme) => ({
-        main: "url('./bg.jpg')",
-      }),
+      }
     },
   },
   variants: {
